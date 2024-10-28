@@ -9,7 +9,6 @@ permalink: /blog/:year/:month/:day/:title/
 
 exclude:
   - node_modules
-  - package.json
   - package-lock.json
   - next.config.js
   - tsconfig.json
