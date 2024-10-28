@@ -1,0 +1,24 @@
+title: My Blog
+description: A Next.js site with Jekyll blog
+baseurl: ""
+url: ""
+
+# Build settings
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title/
+
+exclude:
+  - node_modules
+  - package.json
+  - package-lock.json
+  - next.config.js
+  - tsconfig.json
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - LICENSE.md
+  - LICENSE
